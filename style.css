@@ -1,0 +1,320 @@
+* {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: "Saman";
+  src: url("SAMAN___.TTF") format("truetype"); 
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("Inter-VariableFont_slnt\,wght.ttf") format("truetype"); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-bar {
+  background-color: #1f2937;
+  height: 64px;
+  /* width: 100%; */
+  display: flex;
+}
+
+.name,
+.name1 {
+  font-family: "SAMAN", sans-serif;
+  color: #cccccc;
+  height: 36.8px;
+  width: 127px;
+  font-size: 30px;
+  margin: 0px 40px 0px 0px;
+  padding-top: 1rem;
+  margin-left: 2.5rem;
+  font-weight: 800;
+}
+
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 55px;
+}
+
+a {
+  color: #cccccc;
+  font: 14px "Inter", sans-serif;
+  margin: 0px 12px 0px 12px;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.box1 {
+  background-color: rgb(8, 5, 20);
+}
+
+.box1:hover {
+  color: white;
+  background-color: rgba(218, 209, 209, 0.1);
+}
+
+.box:hover {
+  color: white;
+  background-color: rgba(218, 209, 209, 0.1);
+}
+
+.logsign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  font-size: 16px;
+  font-weight: 650;
+  background-color: #1f2937;
+  color: white;
+  margin-right: 15px;
+  margin-left: 450px;
+  border: 0.5px solid rgba(204, 204, 204, 0.23);
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+
+.signup {
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: rgb(8, 5, 20);
+  color: #cccccc;
+  padding: 10px 25px 10px 25px;
+  border-radius: 5px;
+}
+
+.main-body {
+  display: flex;
+  height: 700px;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.part1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 25px;
+  padding-left: 45px;
+  padding-top: 45px;
+}
+
+.part2 {
+  margin-left: 50px;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.main-body-txt {
+  font-family: "SAMAN", sans-serif;
+  height: 75px;
+  width: 620px;
+  color: #232323;
+  font-size: 72px;
+  padding: 0px 20px 0px 20px;
+  font-weight: 800;
+}
+
+.sec-txt {
+  height: 50px;
+  width: 620px;
+  font-size: 30px;
+  color: #232323;
+  padding: 12px 20px 0px 20px;
+  font-weight: 700;
+}
+
+p {
+  height: 80px;
+  width: 620px;
+  font-size: 18px;
+  color: #374151;
+  font-family: sans-serif;
+  padding: 0px 20px 20px 20px;
+}
+
+.part2 {
+  background-image: url("oldwomen.png");
+  background-size: cover;
+  height: 600px;
+  width: 620px;
+  filter: drop-shadow(40px 40px 40px #555);
+  border-radius:15px;
+}
+
+.bfirst {
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 8px 24px 8px 24px;
+  color: #556f54;
+  border: 1px solid #556f54;
+  background-color: white;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.bsec {
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 8px 20px 8px 24px;
+  background-color: #556f5f;
+  color: #f3f4f6;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.bcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 45px;
+}
+
+.bfirst:hover {
+  background-color: #556f5f;
+  color: white;
+}
+
+.section2 {
+  height: 900px;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-left: 20px;
+}
+
+h1 {
+  text-align: center;
+  font: 31.5px sans-serif;
+  width: 100%;
+  height: 138px;
+  margin: 0px 0px 21px 0px;
+  padding: 42px 42px 42px 42px;
+  font-weight: 700;
+}
+
+.categorycontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+  height: 260px;
+  width: 456px;
+  padding: 0px 20px 0px 20px;
+  margin: 0px 30px 35px 0px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-color: #cccccc;
+}
+
+.container1 {
+  background-image: url("oil-painting.jpg");
+  background-size: cover;
+  border-radius: 15px;
+
+  box-shadow: 20px 20px 46px #868686, -20px -20px 46px #ffffff;
+}
+
+.container2 {
+  background-image: url("water.jpg");
+  background-size: cover;
+  border-radius: 15px;
+
+  box-shadow: 20px 20px 46px #868686, -20px -20px 46px #ffffff;
+}
+
+.container3 {
+  background-image: url("digital.jpg");
+  background-size: cover;
+  border-radius: 15px;
+
+  box-shadow: 20px 20px 46px #868686, -20px -20px 46px #ffffff;
+}
+
+.container4 {
+  background-image: url("lynx-3448879_1280.jpg");
+  background-size: cover;
+  border-radius: 15px;
+
+  box-shadow: 20px 20px 46px #868686, -20px -20px 46px #ffffff;
+}
+
+.container5 {
+  background-image: url("more.jpg");
+  background-size: cover;
+  border-radius: 15px;
+
+  box-shadow: 20px 20px 46px #868686, -20px -20px 46px #ffffff;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 25.2px;
+  height: 318px;
+  width: 370px;
+}
+
+.footer-nav {
+  height: 42px;
+  width: 1255px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastpart {
+  height: 180px;
+  width: 100%;
+  padding: 48px 32px 48px 32px;
+  margin: 0px 108px 0px 108px;
+}
+
+.navb {
+  color: #6b7280;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.navb:hover {
+  color: black;
+}
+
+.iconholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 1255px;
+  margin-top: 25px;
+}
+
+.footerp {
+  height: 24px;
+  width: 1216px;
+  color: #9ca3af;
+  font: 16px sans-serif;
+  margin: 32px 0px 0px 0px;
+  text-align: center;
+}
